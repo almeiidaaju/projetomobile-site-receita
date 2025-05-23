@@ -49,3 +49,32 @@ body {
         font-size: 16px;
         color: white;
     }
+
+    input::placeholder {
+        color: white;
+    }
+
+    .esqueci {
+       color: #ff944d;
+       font-size: 14px;
+       margin-top: -5px;
+       margin-bottom: 15px;
+}
+
+.google-btn {
+    background-color: #ff944d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+    
+    
+
