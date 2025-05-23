@@ -1,7 +1,8 @@
-p{
-   text-align: center;
+img{
+   width: 125px;
+   height: auto
+}
+p.one {
    border-style: solid;
-   border: 2px solid rgba(177, 177, 177, 0.715);
-   border-radius: 12px;
-   padding: 5px;
+   border-color: rgb(163, 163, 163);
 }
