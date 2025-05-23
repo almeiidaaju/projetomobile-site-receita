@@ -1,1 +1,101 @@
-/* pagina do artur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e1e;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    width: 350px;
+    padding: 20px;
+}
+
+.header {
+    background: #f47920;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.header .logo {
+    width: 50px;
+    height: 50px;
+}
+
+.header h1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.perfil {
+    font-size: 20px;
+}
+
+h2 {
+    color: #f47920;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ingredientes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.ingredientes .item {
+    text-align: center;
+}
+
+.ingredientes img {
+    width: 50px;
+    height: 50px;
+}
+
+.preparo {
+    margin-top: 10px;
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+.preparo li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #f47920;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+    margin-top: 20px;
+}
+
+footer button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.icone {
+    font-size: 20px;
+}
