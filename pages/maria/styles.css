@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff944d;
+    color: #333;
+    }
+    
+    .container {
+    max-width: 100px;
+    margin: auto;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 0 10px #ff944d(0,0,0,0.1);
+    }
+    
+    header {
+    background-color: #ff944d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    }
+    
+    .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    }
+    
+    .perfil-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    }
+    
+    .ingredientes, .modo-preparo {
+    padding: 20px;
+    }
+    
+    .ingredientes h2, .modo-preparo h2 {
+    color: #ff944d;
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    
+    .ingredientes ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    .ingredientes li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+    
+    .ingredientes img {
+    width: 50px;
+    margin-right: 10px;
+    }
+    
+    .tempo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    }
+    
+    .tempo span {
+    font-weight: bold;
+    color: #ff944d;
+    }
+    
+    footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #ff944d;
+    }
+    
+    footer button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #ff944d;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+
+    .suco-img {
+        width: 100px;
+        height: 100px;
+      }
+      
