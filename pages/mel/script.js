@@ -45,6 +45,7 @@ header: {
     width: '90%',
     backgroundColor: '#ff944d',
     padding: 12,
+    alignItems: 'center',
     borderRadius: 20,
     marginBottom: 10,
     color: '#fff',
