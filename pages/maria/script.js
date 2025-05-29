@@ -1,7 +1,4 @@
-function voltarHome() {
-    alert("Voltando para a Home...");
-    }
-    
-    function abrirMenu() {
-    alert("Abrindo o Menu...");
-    }
+function navigate(destino) {
+    alert("Navegando para: " + destino);
+
+}
