@@ -1,1 +1,108 @@
-/* pagina do artur */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    background: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.top-bar {
+    background: #FF914D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+
+.top-bar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.top-bar .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.header {
+    background: #FF914D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section {
+    padding: 15px;
+}
+
+.section h2 {
+    color: #FF7B00;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ingredientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.ingrediente {
+    text-align: center;
+    margin: 10px;
+}
+
+.ingrediente img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.preparo h2::after {
+    content: " ⏰";
+}
+
+.preparo ol {
+    padding-left: 20px;
+}
+
+.preparo ol li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer {
+    background: #FF914D;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    text-decoration: underline;
+}
