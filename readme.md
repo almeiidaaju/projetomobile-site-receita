@@ -37,4 +37,4 @@ Imagens e Ícones
 Logo fictícia (carregada localmente): images.png
 Ícones (carregados de forma externa):
 Ícone do Google
-Ícones do menu e home (via Icons8)
+Ícones do menu e home (via Icons8).
