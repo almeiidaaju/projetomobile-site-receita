@@ -6,63 +6,71 @@
     <title>Suas receitas</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-</head>
-<body>
-    <i class="fa-regular fa-user"></i>
-    <header>
-
-    <div class="header-box"></div>
+    
+  <header>
     <div class="logo">
       <img src="c:\Users\aluno\Pictures\unnamed.png" alt="Logo Suas Receitas">
-    </div>    
-    <input type="text" placeholder="Procure uma receita...">
-    <div class="user-icon"><i class="fas fa-user"></i></div>
-    </header>
+    </div>
+    <div class="search-container">
+      <input type="text" placeholder="Procure uma receita...">
+      <i class="fas fa-search"></i>
+    </div>
+    <i class="fas fa-user-circle profile-icon"></i>
+  </header>
 
-    <nav class="icons">   
-    <h2>🍔 CARNES</h2>
-    <div class="item">
+  <div class="nav-icons">
+    <i class="fas fa-concierge-bell"></i>
+    <i class="fas fa-utensils"></i>
+    <i class="fas fa-ice-cream"></i>
+    <i class="fas fa-blender"></i>
+  </div>
+
+  <div class="section">
+    <h2><i class="fas fa-hamburger"></i> CARNES</h2>
+    <div class="recipe">
       <img src="c:\Users\aluno\Downloads\HamburguerAlcatraComBacon_1-1920x1274.jpg" alt="Hambúrguer">
-      <div>
+      <div class="recipe-info">
         <h3>hambúrguer caseiro</h3>
         <p>Confira como fazer hambúrguer caseiro:</p>
-        <p>🕒 30min | ✅ fácil</p>
+        <p class="details"><i class="far fa-clock"></i> 30min &nbsp; <i class="fas fa-star"></i> fácil</p>
       </div>
     </div>
-    <h2>🍮 SOBREMESAS</h2>
-    <div class="item">
+
+    <h2><i class="fas fa-ice-cream"></i> SOBREMESAS</h2>
+    <div class="recipe">
       <img src="c:\Users\aluno\Downloads\download.jfif" alt="Mousse de maracujá">
-      <div>
+      <div class="recipe-info">
         <h3>mousse de maracujá</h3>
         <p>Confira como fazer mousse de maracujá:</p>
-        <p>🕒 5min | ✅ muito fácil</p>
-
-  <nav class="icons">
-    <div><i class="fas fa-utensils"></i></div>
-    <div><i class="fas fa-egg"></i></div>
-    <div><i class="fas fa-leaf"></i></div>
-    <div><i class="fas fa-pizza-slice"></i></div>
-  </nav>
-    <section>
-      <h2><i class="fas fa-pizza-slice"></i> MASSAS</h2>
-      <div class="item">
-        <img src="file:///C:/Users/aluno/Pictures/Massa-de-panqueca.webp" alt="Massa de panqueca">
-        <div>
-          <h3>massa de panqueca</h3>
-          <p>Confira como fazer massa de panqueca:</p>
-           <p>🕒 30min | ✅ fácil</p>
-
-        </div>
+        <p class="details"><i class="far fa-clock"></i> 5min &nbsp; <i class="fas fa-star"></i> muito fácil</p>
       </div>
-    </section>
-    
+    </div>
 
-  <footer>
-    <button onclick="navigate('home')"><i class="fas fa-home"></i> Home</button>
-    <button onclick="navigate('menu')"><i class="fas fa-bars"></i> Menu</button>
-    <button onclick="navigate('outros')"><i class="fas fa-ellipsis-h"></i> Outros...</button>
-  </footer>
+    <h2><i class="fas fa-utensil-spoon"></i> MASSAS</h2>
+    <div class="recipe">
+      <img src="file:///C:/Users/aluno/Pictures/Massa-de-panqueca.webp" alt="Massa de panqueca">
+      <div class="recipe-info">
+        <h3>massa de panqueca</h3>
+        <p>Confira como fazer massa de panqueca:</p>
+        <p class="details"><i class="far fa-clock"></i> 30min &nbsp; <i class="fas fa-star"></i> fácil</p>
       </div>
+    </div>
+  </div>
+
+  <div class="bottom-nav">
+    <div>
+      <i class="fas fa-home"></i>
+      <span>Home</span>
+    </div>
+    <div>
+      <i class="fas fa-utensils"></i>
+      <span>Menu</span>
+    </div>
+    <div>
+      <i class="fas fa-bars"></i>
+      <span>Outros...</span>
+    </div>
+  </div>
+
 </body>
 </html>

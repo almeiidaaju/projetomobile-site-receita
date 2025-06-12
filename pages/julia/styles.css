@@ -1,47 +1,125 @@
-img{
-   width: 125px;
-   height: auto
-}
-p.one {
-   border-style: solid;
-   border-color: rgb(163, 163, 163);
-}
-h3{
-   color: #ff944d;
-}
-h2{
-   color: #db6b21;
-}
 body {
-   font-family: sans-serif;
-   margin: 18px;
-   padding: 50px;
-   background: #fff;
-   color: #333;
- }
- 
- header {
-   background: #ffa25b;
-   padding: 20px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   height: 40px;
- }
- 
-.logo{
-   width: 5px;
-   height: 40px;
-   border-radius: 10%;
-   background-color: #ffffff;
-   border: 10px solid #ff944d;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   font-weight: bold;
-   color: #ff944d;
-   margin-right: 66px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
 }
-.meu-icone {
-   color: red;
-   font-size: 50px;}
+
+header {
+  background-color: #f98d47;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo img {
+  height: 65px;
+  border-radius: 25px;
+}
+
+.search-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.search-container i {
+  color: #999;
+}
+
+.profile-icon {
+  color: white;
+  font-size: 20px;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-icons i {
+  font-size: 20px;
+  color: #333;
+}
+
+.section {
+  padding: 15px;
+}
+
+.section h2 {
+  font-size: 16px;
+  color: #f98d47;
+  font-weight: bold;
+  margin: 20px 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.recipe {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.recipe img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.recipe-info h3 {
+  margin: 0;
+  font-size: 15px;
+  color: #c95c1d;
+}
+
+.recipe-info p {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+.recipe-info .details {
+  font-size: 12px;
+  color: #666;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f98d47;
+  padding: 8px 0;
+  border-top: 1px solid #ccc;
+}
+
+.bottom-nav div {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.bottom-nav i {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
