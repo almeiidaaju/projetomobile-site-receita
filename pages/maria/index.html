@@ -1,56 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mousse de Maracujá</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  href="style.css"/>
 </head>
 <body>
-
-  <header>
-    <div class="top-bar">
-      <div class="logo">🍊 Suas Receitas</div>
-      <h1>Mousse de Maracujá</h1>
-      <div class="user-icon">👤</div>
-    </div>
+  <header class="topbar">
+    <img src="logo.png" alt="Logo" class="logo" />
+    <h1>MOUSSE DE MARACUJÁ</h1>
+    <img src="perfil.png" alt="Perfil" class="icon"/>
   </header>
 
-  <section class="ingredientes">
-    <h2>INGREDIENTES (6 PORÇÕES)</h2>
-    <ul>
-      <li>
-        <img src="https://img.icons8.com/color/48/condensed-milk.png" alt="Leite condensado" />
-        1 lata de leite condensado
-      </li>
-      <li>
-        <img src="https://img.icons8.com/color/48/sour-cream.png" alt="Creme de leite" />
-        1 lata de creme de leite sem soro
-      </li>
-      <li>
-        <img src="https://img.icons8.com/color/48/passion-fruit.png" alt="Suco de maracujá" />
-        1 lata de suco de maracujá<br><span class="detalhe">(medida pela lata de leite condensado)</span>
-      </li>
-    </ul>
-  </section>
+  <main>
+    <section class="ingredientes">
+      <h2>INGREDIENTES (6 PORÇÕES)</h2>
+      <ul>
+        <li>
+          <img src="leite-condensado.png" alt="Leite condensado">
+          <span>1 lata de leite condensado</span>
+        </li>
+        <li>
+          <img src="creme-leite.png" alt="Creme de leite">
+          <span>1 lata de creme de leite sem soro</span>
+        </li>
+        
+          <img src="suco-maracuja.png" alt="Suco de maracujá">
+          <span>1 lata de suco de maracujá<br>(medida pela lata de leite condensado)</span>
+        </li>
+      </ul>
+    </section>
 
-  <section class="modo-preparo">
-    <h2>MODO DE PREPARO</h2>
-    <div class="tempo">
-      <p>⏱ Modo de preparo: <strong>5min</strong></p>
-      <p>⏳ Espera : <strong>4h</strong></p>
-    </div>
-    <ol>
-      <li>Em um liquidificador, bata o creme de leite, o leite condensado e o suco concentrado de maracujá.</li>
-      <li>Em uma tigela, despeje a mistura e leve à geladeira por, no mínimo, 4 horas.</li>
-    </ol>
-  </section>
+    <section class="preparo">
+      <h2>MODO DE PREPARO</h2>
+      <div class="tempo">
+        <div>
+          <img src="icone-preparo.png" alt="Preparo"/>
+          <p>Modo de preparo: 5min</p>
+        </div>
+        <div>
+          <img src="icone-espera.png" alt="Espera"/>
+          <p>Espera : 4h</p>
+        </div>
+      </div>
+      <ol>
+        <li>Em um liquidificador, bata o creme de leite, o leite condensado e o suco concentrado de maracujá.</li>
+        <li>Em uma tigela, despeje a mistura e leve à geladeira por, no mínimo, 4 horas.</li>
+      </ol>
+    </section>
+  </main>
 
-  <footer>
-    <button onclick="navigate('home')">🏠 Home</button>
-    <button onclick="navigate('menu')">📋 Menu</button>
+  <footer class="bottom-nav">
+    <div><img src="icone-home.png" alt="Home"/><span>Home</span></div>
+    <div><img src="icone-menu.png" alt="Menu"/><span>Menu</span></div>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
