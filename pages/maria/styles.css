@@ -1,123 +1,123 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-}
-
 body {
-  background-color: #fff;
-  padding: 15px;
-  color: #333;
+  margin: 0;
+  font-family: 'Bree Serif', serif;
+  background: #fff;
+  color: #000;
 }
 
-/* Topo */
-header {
-  background-color: #f97316;
+.topbar {
+  background-color: #f87d24;
   color: white;
-  border-radius: 5px 5px 0 0;
   padding: 10px;
-}
-
-.top-bar {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-  font-family: 'Brush Script MT', cursive;
-  font-size: 1em;
-  align-self: flex-start;
+  height: 60px;
+  border-radius: 50%;
 }
 
-.user-icon {
-  font-size: 1.4em;
-  align-self: flex-end;
-  margin-top: -1.8em;
+.topbar h1 {
+  font-size: 16px;
+  flex-grow: 1;
+  text-align: center;
 }
 
-h1 {
-  font-size: 1.3em;
-  margin: 10px 0;
+.icon {
+  width: 25px;
+  height: 25px;
 }
 
-/* Ingredientes */
-.ingredientes {
-  margin-top: 20px;
+main {
+  padding: 15px;
 }
 
-.ingredientes h2 {
-  color: #f97316;
-  font-size: 1.1em;
+.ingredientes h2,
+.preparo h2 {
   font-weight: bold;
-  margin-bottom: 10px;
+  color: #f87d24;
+  font-family: 'Bree Serif', serif;
+  font-size: 16px;
 }
 
 .ingredientes ul {
   list-style: none;
+  padding: 0;
 }
 
 .ingredientes li {
   display: flex;
   align-items: center;
-  margin-bottom: 12px;
-  font-size: 0.95em;
+  margin: 10px 0;
 }
 
 .ingredientes img {
-  width: 35px;
+  width: 50px;
   margin-right: 10px;
 }
 
-.detalhe {
-  font-size: 0.8em;
-  color: #555;
-}
-
-/* Preparo */
-.modo-preparo {
-  margin-top: 20px;
-}
-
-.modo-preparo h2 {
-  color: #f97316;
-  font-size: 1.1em;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.tempo {
+.preparo .tempo {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  font-size: 0.95em;
-  color: #333;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.preparo .tempo div {
+  text-align: center;
+}
+
+.preparo .tempo img {
+  width: 40px;
+  height: 40px;
 }
 
 ol {
   padding-left: 20px;
+  counter-reset: item;
 }
 
 ol li {
   margin-bottom: 10px;
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
 }
 
-/* Rodapé */
-footer {
-  margin-top: 30px;
-  background-color: #f97316;
+ol li::before {
+  content: counter(item) ".";
+  counter-increment: item;
+  position: absolute;
+  left: 0;
+  color: #f87d24;
+  font-weight: bold;
+}
+
+.bottom-nav {
+  background-color: #f87d24;
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  border-radius: 0 0 5px 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-footer button {
-  background: none;
-  border: none;
+.bottom-nav div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: white;
-  font-size: 1em;
-  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
 }
+
+.bottom-nav img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+
 
