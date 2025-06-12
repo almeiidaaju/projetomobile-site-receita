@@ -1,5 +1,5 @@
 # projetomobile-site-receita
-
+MELANI
 Quintal com Tempero
 
 Esse projeto é uma interface de login simples, responsiva e visualmente agradável para o app fictício "Quintal com Tempero", é voltado para o acesso de usuários a um aplicativo de culinária. O projeto utiliza HTML, CSS e uma simulação de JavaScript com React Native StyleSheet para fins de design de interface. O objetivo principal do projeto foi criar uma tela de login responsiva e funcional, com design atrativo e elementos de fácil uso.
@@ -33,4 +33,29 @@ JavaScript (React Native - simulação de estilo)
 Estilização no formato do StyleSheet.create() utilizado em React Native:
 Não foi implementada nenhuma lógica funcional.
 Os estilos foram estruturados para simular uma interface mobile, facilitando a transição de web para app.
+
+JÚLIA
+Suas receitas
+Este projeto é uma página web responsiva criada com HTML e CSS, com foco na apresentação de receitas culinárias de forma organizada e acessivel. Ele apresenta como estruturação o HTML, estilização com CSS, responsividade e uso de ícones.
+
+
+O objetivo deste projeto é desenvolver uma interface simples e intuitiva para exibir receitas divididas em categorias (Carnes, Sobremesas e Massas), com informações como:
+
+ Nome da receita
+ Imagem ilustrativa
+ Descrição rápida
+ Tempo de preparo
+ Nível de dificuldade
+ Ícones e cores
+
+HTML5:Estruturação da página e conteúdo 
+CSS3:Estilo visual, cores, posicionamento        
+Flexbox: Layout flexível para organizar os elementos 
+Font Awesome: Biblioteca de ícones (menu, relógio, estrela) 
+Media Queries (CSS): Adaptar layout para celulares e telas menores 
+
+
+
+
+
 
