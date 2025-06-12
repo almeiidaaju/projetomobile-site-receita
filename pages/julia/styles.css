@@ -22,23 +22,26 @@ body {
  
  header {
    background: #ffa25b;
-   padding: 15px;
+   padding: 20px;
    display: flex;
    align-items: center;
    justify-content: space-between;
+   height: 40px;
  }
  
 .logo{
-   width: 70px;
-   height: 50px;
-   border-radius: 60%;
+   width: 5px;
+   height: 40px;
+   border-radius: 10%;
    background-color: #ffffff;
-   border: 5px solid #ff944d;
+   border: 10px solid #ff944d;
    display: flex;
    align-items: center;
    justify-content: center;
    font-weight: bold;
    color: #ff944d;
-   margin-right: 20px;
+   margin-right: 66px;
 }
- 
+.meu-icone {
+   color: red;
+   font-size: 50px;}
