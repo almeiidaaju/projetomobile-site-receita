@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
-  
-  const ingredients = document.querySelectorAll('.ingredient-item');
-  
-  ingredients.forEach(ingredient => {
-      ingredient.addEventListener('mouseenter', function() {
-          this.style.transform = 'translateX(5px)';
-          this.style.transition = 'transform 0.2s';
-      });
-      
-      ingredient.addEventListener('mouseleave', function() {
-          this.style.transform = 'translateX(0)';
-      });
-  });
+    console.log('Recipe page loaded successfully');
+    
+    // You could add interactive features here like:
+    // - Timer for the 4h refrigeration
+    // - Serving size calculator
+    // - Print recipe button
+    // - Favorite/save recipe functionality
+    
+    // Example interactive element:
+    const ingredients = document.querySelector('.ingredients');
+    ingredients.addEventListener('click', function() {
+        console.log('Ingredients section clicked');
+    });
 });
