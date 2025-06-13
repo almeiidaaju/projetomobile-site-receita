@@ -1,123 +1,61 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-}
-
 body {
-  background-color: #fff;
-  padding: 15px;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
   color: #333;
-}
-
-/* Topo */
-header {
-  background-color: #f97316;
-  color: white;
-  border-radius: 5px 5px 0 0;
-  padding: 10px;
-}
-
-.top-bar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.logo {
-  font-family: 'Brush Script MT', cursive;
-  font-size: 1em;
-  align-self: flex-start;
-}
-
-.user-icon {
-  font-size: 1.4em;
-  align-self: flex-end;
-  margin-top: -1.8em;
 }
 
 h1 {
-  font-size: 1.3em;
-  margin: 10px 0;
+  text-align: center;
+  color: #ff994d;
+  margin-bottom: 30px;
 }
 
-/* Ingredientes */
-.ingredientes {
-  margin-top: 20px;
+h2 {
+  color: #ff994d;
+  border-bottom: 1px solid #ff994d;
+  padding-bottom: 5px;
 }
 
-.ingredientes h2 {
-  color: #f97316;
-  font-size: 1.1em;
-  font-weight: bold;
-  margin-bottom: 10px;
+.ingredients {
+  margin-bottom: 20px;
 }
 
-.ingredientes ul {
-  list-style: none;
+.ingredients ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.ingredientes li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 12px;
-  font-size: 0.95em;
+.ingredients li {
+  margin-bottom: 8px;
 }
 
-.ingredientes img {
-  width: 35px;
-  margin-right: 10px;
+.divider {
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
 }
 
-.detalhe {
-  font-size: 0.8em;
-  color: #555;
+.preparation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
 }
 
-/* Preparo */
-.modo-preparo {
-  margin-top: 20px;
-}
-
-.modo-preparo h2 {
-  color: #f97316;
-  font-size: 1.1em;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.tempo {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  font-size: 0.95em;
-  color: #333;
-}
-
-ol {
-  padding-left: 20px;
-}
-
-ol li {
-  margin-bottom: 10px;
-}
-
-/* Rodapé */
-footer {
-  margin-top: 30px;
-  background-color: #f97316;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  border-radius: 0 0 5px 5px;
-}
-
-footer button {
-  background: none;
-  border: none;
+.preparation-table th {
+  background-color: #ff994d;
   color: white;
-  font-size: 1em;
-  cursor: pointer;
+  padding: 8px;
+  text-align: left;
 }
 
+.preparation-steps {
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 30px;
+}
