@@ -12,8 +12,8 @@ header: {
     },
 
     logo: {
-    width: 60,
-    height: 60,
+    width: 70,
+    height: 80,
     borderRadius: 30,
     backgroundColor: '#fff',
     borderWidth: 3,
