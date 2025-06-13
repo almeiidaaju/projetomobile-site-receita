@@ -19,8 +19,9 @@ body {
 }
 
 .logo img {
-  height: 40px;
+  height: 65px;
   margin-right: 25px;
+  border-radius: 25px;
 }
 
 .topo h1 {
@@ -52,14 +53,14 @@ h2 {
 }
 
 .item img {
-  width: 50px; /* Imagens menores */
+  width: 50px; 
   height: 50px;
   object-fit: contain;
   margin-bottom: 5px;
 }
 
 .preparo {
-  margin-top: 20px; /* Subindo um pouco */
+  margin-top: 20px; 
 }
 
 footer {
@@ -84,7 +85,7 @@ footer a {
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 20px;
+  border-radius: 15px;
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -96,12 +97,12 @@ footer a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #ff994d; /* Laranja do Figma */
+  background-color: #ff994d;
   padding: 10px 0;
   position: fixed;
   bottom: 0;
   width: 100%;
-  border-top: 2px solid #000; /* Borda preta no topo */
+  border-top: 2px solid #000; 
 }
 
 .footer-item {
@@ -119,14 +120,14 @@ footer a {
   margin-bottom: 5px;
 }
 main {
-  padding-bottom: 80px; /* ou ajuste conforme a altura real do seu rodapé */
+  padding-bottom: 80px; 
 }
 
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  max-width: 414px; /* ou o valor usado no seu main */
+  max-width: 414px; 
   margin: 0 auto;
 
   background-color: #ff994d;
