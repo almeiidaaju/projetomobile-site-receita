@@ -7,7 +7,7 @@ const LoginScreen = () => {
   useEffect(() => {
     // Inicializa o Google Sign-In
     GoogleSignin.configure({
-      webClientId: 'YOUR_GOOGLE_CLIENT_ID',  // Substitua com sua ID do Cliente OAuth 2.0
+      webClientId: '587121433603-r6353kb1fo9o72a663bmsrn6fooo32dj.apps.googleusercontent.com',  // Substitua com sua ID do Cliente OAuth 2.0
     });
   }, []);
 
