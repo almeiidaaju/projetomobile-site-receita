@@ -1,15 +1,20 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('Recipe page loaded successfully');
+  
+    const bars = document.querySelectorAll('.top-bar, .bottom-bar');
     
-    // You could add interactive features here like:
-    // - Timer for the 4h refrigeration
-    // - Serving size calculator
-    // - Print recipe button
-    // - Favorite/save recipe functionality
-    
-    // Example interactive element:
-    const ingredients = document.querySelector('.ingredients');
-    ingredients.addEventListener('click', function() {
-        console.log('Ingredients section clicked');
+    bars.forEach(bar => {
+        bar.style.transition = 'all 0.3s ease';
+        
+        bar.addEventListener('mouseenter', function() {
+            this.style.backgroundColor = '#FF7700';
+        });
+        
+        bar.addEventListener('mouseleave', function() {
+            this.style.backgroundColor = '#FF8C00';
+        });
     });
+    
+   
+ 
+    console.log('Receita de Mousse de Maracujá carregada com sucesso!');
 });
