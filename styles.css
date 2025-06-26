@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    }
+
+    .header {
+    background-color: #ff944d;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    }
+
+    .logo {
+       width: 60px;
+       height: 60px;
+       border-radius: 50%;
+       background-color: white;
+       border: 3px solid #ff944d;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-weight: bold;
+       color: #ff944d;
+       margin-right: 10px;
+    }
+
+    .titulo {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+    .container {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input[type="text"], input[type="password"] {
+        width: 90%;
+        padding: 12px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 20px;
+        background-color: #ff944d;
+        font-size: 16px;
+        color: white;
+        align-items: center;
+    }
+
+    input::placeholder {
+        color: white;
+    }
+
+    .esqueci {
+       color: #ff944d;
+       font-size: 14px;
+       margin-top: -5px;
+       margin-bottom: 15px;
+}
+
+.google-btn {
+    background-color: #ff944d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+    
+    
+

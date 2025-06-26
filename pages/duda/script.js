@@ -1,5 +1,3 @@
-document.querySelectorAll('footer button').forEach(button => {
-    button.addEventListener('click', () => {
-        alert(`Você clicou em: ${button.textContent.trim()}`);
-    });
+document.getElementById('toggle-mode').addEventListener('click', function () {
+  document.body.classList.toggle('dark-mode');
 });
