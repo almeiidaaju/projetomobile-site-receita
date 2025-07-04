@@ -1,6 +1,11 @@
 # projetomobile-site-receita
 
-Quintal com Tempero (Página de Login - Mel)
+Quintal com Tempero (Julia, Maria Eduarda Raramalho, Maria Eduarda Bastos, Milena, Melani)
+
+Link do Protótipo no Figma: https://www.figma.com/proto/B3eTGjX1BtIYEgL9xhNO0I/Untitled?node-id=0-1&t=DMuYfWxyMs2e2ePg-1
+
+
+(Página de Login - Mel)
 
 Visão Geral:
 Quintal com Tempero é uma aplicação web e mobile que oferece receitas culinárias. Fiz a primeira página permitindo login com Google.
@@ -79,11 +84,14 @@ Página de Menu (Julia)
 
 
 
+
 Página de Hamburguer (Milena)
 
 
 
+
 Página de Mousse (Maria)
+
 
 
 
