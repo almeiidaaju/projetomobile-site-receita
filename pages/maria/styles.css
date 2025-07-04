@@ -23,14 +23,6 @@ body {
   height: 100%; 
 }
 
-.top-bar {
-  background-color: #FF994d;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  padding: 0 20px; 
-}
-
 .logo {
   display: flex;
   align-items: center; 
@@ -59,8 +51,7 @@ h2 {
   font-size: 18px;
   margin: 20px 0 10px 0;
   font-weight: bold;
-  border-bottom: 2px solid #FF994d;
-  padding-bottom: 5px;
+ 
 }
 
 .ingredients {
@@ -70,6 +61,16 @@ h2 {
 .ingredients p {
   margin: 10px 0;
   line-height: 1.6;
+}
+.item {
+  text-align: center; 
+}
+
+.item img {
+  width: 80%; 
+  max-width: 80px; 
+  height: auto; 
+
 }
 
 .measure {
@@ -99,13 +100,6 @@ h2 {
 
 .bottom-bar {
   background-color: #FF994d;
-  height: 60px;
+  height: 50px;
   width: 100%;
-}
-.recipe-title {
-  font-family: 'arial', sans-serif; 
-  font-size: 18px; 
-  color: white; 
-  margin-left: 10px; 
-  text-transform: uppercase;
 }
