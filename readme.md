@@ -60,24 +60,6 @@ Componentes:
 -Inputs: Bordas arredondadas e placeholder branco
 -Footer Fixo: Navegação inferior
 
-Como Executar o Projeto
-Versão Web
-1. Clone o repositório
-2. Abra o arquivo `index.html` no navegador
-
-Versão Mobile (React Native)
-1. Instale as dependências:
-   ```bash
-   npm install
-   npm install @react-native-google-signin/google-signin
-   ```
-2. Configure o `webClientId` no arquivo de autenticação
-3. Execute o projeto:
-   ```bash
-   npx react-native run-android
-   # ou
-   npx react-native run-ios
-   ```
 
 
 Página de Menu (Julia)
