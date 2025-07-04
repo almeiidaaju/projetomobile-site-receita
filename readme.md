@@ -60,6 +60,8 @@ Componentes:
 -Inputs: Bordas arredondadas e placeholder branco
 -Footer Fixo: Navegação inferior
 
+Yotra, não lembro como colocar os prints aqui dentro. Sorry
+
 
 
 Página de Menu (Julia)
