@@ -7,7 +7,7 @@ const LoginScreen = () => {
   useEffect(() => {
     // Inicializa o Google Sign-In
     GoogleSignin.configure({
-      webClientId: '587121433603-r6353kb1fo9o72a663bmsrn6fooo32dj.apps.googleusercontent.com',  // Substitua com sua ID do Cliente OAuth 2.0
+      webClientId: '587121433603-r6353kb1fo9o72a663bmsrn6fooo32dj.apps.googleusercontent.com',  
     });
   }, []);
 
@@ -15,7 +15,7 @@ const LoginScreen = () => {
     try {
       // Tenta fazer login com o Google
       const userInfo = await GoogleSignin.signIn();
-      console.log(userInfo); // Aqui você pode salvar as informações do usuário
+      console.log(userInfo); 
     } catch (error) {
       console.error(error);
     }
