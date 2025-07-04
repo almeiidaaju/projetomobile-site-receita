@@ -60,9 +60,10 @@ Componentes:
 -Inputs: Bordas arredondadas e placeholder branco
 -Footer Fixo: Navegação inferior
 
-Yotra, não lembro como colocar os prints aqui dentro. Sorry
-
-
+![página de login pelo celular](./Print%20Página%20de%20Login%20(Celular).png)
+![login com o google pelo celular](./Print%20Login%20com%20o%20Google%20(Celular).png)
+![página de login pelo computador](./Print%20Página%20de%20Login%20(Computador))
+![login com o google pelo computador](./Print%20Login%20com%20o%20Google%20(Computador).png)
 
 Página de Menu (Julia)
 
