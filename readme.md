@@ -2,7 +2,7 @@
 
 Quintal com Tempero (Julia, Maria Eduarda Raramalho, Maria Eduarda Bastos, Milena, Melani)
 
-Link do Protótipo no Figma: https://www.figma.com/proto/B3eTGjX1BtIYEgL9xhNO0I/Untitled?node-id=0-1&t=DMuYfWxyMs2e2ePg-1
+Link do Protótipo no Figma: https://www.figma.com/design/B3eTGjX1BtIYEgL9xhNO0I/Untitled?node-id=0-1&t=DMuYfWxyMs2e2ePg-1
 
 
 (Página de Login - Mel)
