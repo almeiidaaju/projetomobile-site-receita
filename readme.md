@@ -1,6 +1,6 @@
 # projetomobile-site-receita
 
-Quintal com Tempero (Página de Login)
+Quintal com Tempero (Página de Login - Mel)
 
 Esse projeto é uma interface de login simples, responsiva e visualmente agradável para o app fictício "Quintal com Tempero", é voltado para o acesso de usuários a um aplicativo de receitas culinárias. O projeto utiliza HTML, CSS e uma simulação de JavaScript com React Native StyleSheet para fins de design de interface. O objetivo principal do projeto foi criar uma tela de login responsiva e funcional, com design atrativo e elementos de fácil uso.
 
@@ -38,3 +38,15 @@ Logo fictícia (carregada localmente): images.png
 Ícones (carregados de forma externa):
 Ícone do Google.
 Ícones do menu e home (via Icons8).
+
+
+Página de Menu (Julia)
+
+
+Página de Hamburguer (Milena)
+
+
+Página de Mousse (Maria)
+
+
+Página de Panqueca (Duda)
