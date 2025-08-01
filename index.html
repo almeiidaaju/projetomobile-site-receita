@@ -4,143 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Quintal com Tempero</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #fff;
-    }
-
-    .header {
-      background-color: #ff944d;
-      display: flex;
-      align-items: center;
-      padding: 10px;
-    }
-
-    .logo {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      background-color: white;
-      border: 3px solid #ff944d;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
-      color: #ff944d;
-      margin-right: 10px;
-    }
-
-    .logo img {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-    }
-
-    .titulo {
-      font-size: 20px;
-      font-weight: bold;
-      color: white;
-      letter-spacing: 1px;
-    }
-
-    .container {
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    input[type="text"], input[type="password"] {
-      width: 90%;
-      padding: 12px;
-      margin: 10px 0;
-      border: none;
-      border-radius: 20px;
-      background-color: #ff944d;
-      font-size: 16px;
-      color: white;
-    }
-
-    input::placeholder {
-      color: white;
-    }
-
-    .forgot {
-      color: #ff944d;
-      font-size: 14px;
-      margin-top: -5px;
-      margin-bottom: 15px;
-      width: 100%;
-      text-align: right;
-      padding-right: 20px;
-    }
-
-    .forgot a {
-      color: #ff944d;
-      text-decoration: none;
-    }
-
-    .forgot a:hover {
-      text-decoration: underline;
-    }
-
-    .google-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #ff944d;
-      color: white;
-      font-size: 16px;
-      padding: 15px 20px;
-      border: none;
-      border-radius: 20px;
-      cursor: pointer;
-      width: 100%;
-      gap: 10px;
-    }
-
-    .google-btn:hover {
-      background-color: #e67e3c;
-    }
-
-    .google-btn img {
-      width: 20px;
-      height: 20px;
-    }
-
-    .footer {
-      width: 100%;
-      background-color: #ff944d;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 10px 0;
-      position: fixed;
-      bottom: 0;
-    }
-
-    .footer-item {
-      color: white;
-      font-weight: bold;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-size: 14px;
-    }
-
-    .footer-item img {
-      width: 20px;
-      height: 20px;
-      margin-bottom: 5px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="header">
     <div class="logo">
-      <img src="C:\Users\aluno\projetomobile-site-receita\logo.png" alt="Logo">
+      <img src="C:\Users\aluno\Downloads\images.png" alt="Logo">
     </div>
     <div class="titulo">QUINTAL COM TEMPERO</div>
   </div>
@@ -153,11 +22,9 @@
       <label for="senha">Senha</label>
       <input type="password" id="senha" placeholder="Digite sua senha" />
 
-      <div class="forgot">
-        <a href="https://accounts.google.com/v3/signin/recovery?flowName=GlifWebSignIn&flowEntry=ServiceLogin">Esqueceu sua senha?</a>
-      </div>
+      <div class="forgot">Esqueceu sua senha?</div>
 
-      <button class="google-btn" onclick="window.location.href='https://accounts.google.com/v3/signin/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin'">
+      <button class="google-btn">
         <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google" />
         Fazer login com o Google
       </button>
@@ -165,17 +32,32 @@
   </div>
 
   <div class="footer">
-    <div class="footer-item">
+    <div class="footer-item" onclick="navigateTo('home')">
       <img src="https://img.icons8.com/ios-filled/50/ffffff/home.png" alt="Home" />
       Home
     </div>
-    <div class="footer-item">
-        <img src="https://img.icons8.com/ios-filled/50/ffffff/restaurant-menu.png" alt="Menu" />
-        Menu
-      </div>
-      <div class="footer-item">
-        Cadastre-se
-      </div>
+    <div class="footer-item" onclick="navigateTo('menu')">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/restaurant-menu.png" alt="Menu" />
+      Menu
+    </div>
+    <div class="footer-item" onclick="navigateTo('cadastro')">
+      Cadastre-se
+    </div>
   </div>
+
+  <script>
+    function navigateTo(page) {
+      if (page === 'home') {
+        // Caminho relativo para a página Home
+        window.location.href = 'index.html'; 
+      } else if (page === 'menu') {
+        // Caminho relativo para a página Menu
+        window.location.href = 'pages/julia/index.html';
+      } else if (page === 'cadastro') {
+        // Caminho relativo para a página Cadastro
+        window.location.href = 'colcoar';  // Ajuste conforme necessário
+      }
+    }
+  </script>
 </body>
 </html>
