@@ -1,63 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Massa de Panqueca</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita de Panqueca</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <div class="top-bar">
-            <div class="logo">
-                <img src="https://via.placeholder.com/50x50?text=Logo" alt="Logo">
-            </div>
-            <div class="title">Sans Receitas</div>
-            <div class="perfil">👤</div>
+        <div class="logo">Suas Receitas</div>
+        
+        <h1>MASSA DE PANQUECA</h1>
+        
+        <h2>INGREDIENTES <span class="servings">(6 PORÇÕES)</span></h2>
+        
+        <div class="ingredients">
+            <div class="ingredient">2 xícaras (chá) de farinha de trigo</div>
+            <div class="ingredient">3 ovos</div>
+            <div class="ingredient">2 xícaras (chá) de leite</div>
+            <div class="ingredient"><br></div>
+            <div class="ingredient">1 pitada de sal</div>
         </div>
-
-        <div class="header">MASSA DE PANQUECA</div>
-
-        <div class="section">
-            <h2>INGREDIENTES (15 PORÇÕES)</h2>
-            <div class="ingredientes">
-                <div class="ingrediente">
-                    <img src="C:\Users\aluno\Downloads\transferir (1).jpg" alt="Farinha">
-                    <p>2 xícaras (chá) de farinha de trigo</p>
-                </div>
-                <div class="ingrediente">
-                    <img src="C:\Users\aluno\Downloads\ovo-1.webp" alt="Ovo">
-                    <p>3 ovos</p>
-                </div>
-                <div class="ingrediente">
-                    <img src="C:\Users\aluno\Downloads\transferir (2).jpg" alt="Leite">
-                    <p>2 xícaras (chá) de leite</p>
-                </div>
-                <div class="ingrediente">
-                    <img src="C:\Users\aluno\Downloads\transferir (3).jpg" alt="Sal">
-                    <p>1 pitada de sal</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="section preparo">
-            <h2>MODO DE PREPARO:</h2>
-            <ol>
-                <li>Bata todos os ingredientes no liquidificador por 2 minutos.</li>
-                <li>Após, desligue e com uma colher misture a farinha que grudou ao redor do copo.</li>
-                <li>Bata novamente só para misturar e reserve.</li>
-                <li>Unte a frigideira com um fio de óleo e leve ao fogo até aquecer.</li>
-                <li>Pegue uma porção de massa e coloque na frigideira, gire a frigideira para espalhar bem a massa.</li>
-                <li>Abaixe o fogo e deixe dourar por baixo, vire do outro lado e deixe dourar, repita o processo com toda a massa.</li>
-            </ol>
-        </div>
-
-        <div class="footer">
-            <button onclick="voltarHome()">🏠 Home</button>
-            <button onclick="abrirMenu()">📋 Menu</button>
-        </div>
+        
+        <hr>
+        
+        <h2>MODO DE PREPARO:</h2>
+        
+        <ol class="preparation-steps">
+            <li>Bata todos os ingredientes no liquidificador por 2 minutos.</li>
+            <li>Após, desligue e com uma colher misture a farinha que grudou ao redor do copo.</li>
+            <li>Bata novamente só para misturar e reserve.</li>
+            <li>Unte a frigideira com um fio de óleo e leve ao fogo até aquecer.</li>
+            <li>Pegue uma porção de massa e coloque na frigideira, gire a frigideira para espalhar bem a massa.</li>
+        </ol>
     </div>
+    
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>© <span id="year"></span> Suas Receitas - Todos os direitos reservados</p>
+            <div class="footer-links">
+                <a href="#">Sobre</a>
+                <a href="#">Receitas</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
