@@ -1,40 +1,83 @@
 # projetomobile-site-receita
 
-Quintal com Tempero (Página de Login)
+Quintal com Tempero (Julia, Maria Eduarda Raramalho, Maria Eduarda Bastos, Milena, Melani)
 
-Esse projeto é uma interface de login simples, responsiva e visualmente agradável para o app fictício "Quintal com Tempero", é voltado para o acesso de usuários a um aplicativo de receitas culinárias. O projeto utiliza HTML, CSS e uma simulação de JavaScript com React Native StyleSheet para fins de design de interface. O objetivo principal do projeto foi criar uma tela de login responsiva e funcional, com design atrativo e elementos de fácil uso.
+Link do Protótipo no Figma: https://www.figma.com/design/B3eTGjX1BtIYEgL9xhNO0I/Untitled?node-id=0-1&t=DMuYfWxyMs2e2ePg-1
+
+
+(Página de Login - Mel)
+
+Visão Geral:
+Quintal com Tempero é uma aplicação web e mobile que oferece receitas culinárias. Fiz a primeira página permitindo login com Google.
 
 Tecnologias Utilizadas
+HTML5, CSS3
+React Native
+Autenticação: Google Sign-In API
+Ícones: [Icons8](https://icons8.com)
 
-HTML5: Estruturação da página web.
-CSS3: Estilização dos elementos com foco em design limpo e moderno.
-JavaScript (React Native): Organização de estilos simulando estrutura mobile com comparação de design responsivo.
-Imagens de ícones: Usadas via URLs externas e arquivos locais.
+Funcionalidades:
+Web
+-Login com usuário e senha
+-Login com Google integrado
+-Recuperação de senha pelo Google
+-Layout responsivo para dispositivos diferentes.
+
+Mobile
+-Autenticação com Google via `@react-native-google-signin/google-signin`
+-Design adaptavel com a versão web
+-Botões e inputs
+
+Quase morri pra tentar colocar uma API. Vi um tutorial no youtube para implementar "Fazer login com o Google" 
+Adicionei um evento onclick no botão que redireciona para o URL correto de login do Google
+Usei o endpoint oficial de login do Google (accounts.google.com/v3/signin)
+
+O projeto utiliza a *Google Sign-In API* para autenticação segura:
+
+```javascript
+GoogleSignin.configure({
+  webClientId: '587121433603-r6353kb1fo9o72a663bmsrn6fooo32dj.apps.googleusercontent.com',
+});
+```
+
+Endpoints utilizados:
+1. Login Web:
+   https://accounts.google.com/v3/signin/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+   
+
+2. Recuperação de Senha:
+   https://accounts.google.com/v3/signin/recovery?flowName=GlifWebSignIn&flowEntry=ServiceLogin
 
 
-Estrutura do Projeto
+ Design:
+ Cores Principais
+-Laranja 1: `#ff944d`
+-Laranja 2: `#e67e3c`
+-Branco: `#ffffff`
 
-HTML
-O arquivo .html contém:
-Cabeçalho (Header): com logo circular e nome do aplicativo.
-Formulário de Login: campos para usuário e senha, além de botão de login com conta Google.
-Rodapé fixo (Footer): com links simulados (Home, Menu e Cadastro).
+Componentes:
+-Botão Google: Estilizado com ícone
+-Inputs: Bordas arredondadas e placeholder branco
+-Footer Fixo: Navegação inferior
 
-CSS
-Estilos aplicados diretamente no <style> do HTML e também para controle visual:
-Cores principais: laranja (#ff944d) e branco.
-Estilo clean, com botões arredondados e layout centralizado.
-Rodapé fixo para facilitar a navegação em mobile.
+![página de login pelo celular](./Print%20Página%20de%20Login%20(Celular).png)
+![login com o google pelo celular](./Print%20Login%20com%20o%20Google%20(Celular).png)
+![página de login pelo computador](./Print%20Página%20de%20Login%20(Computador))
+![login com o google pelo computador](./Print%20Login%20com%20o%20Google%20(Computador).png)
 
-JavaScript (React Native - simulação de estilo)
-Estilização no formato do StyleSheet.create() utilizado em React Native:
-Não há lógica funcional implementada.
-Os estilos foram estruturados para simular uma interface mobile moderna, facilitando a transição de web para app.
+Página de Menu (Julia)
 
 
-Imagens e Ícones
 
-Logo fictícia (carregada localmente): images.png
-Ícones (carregados de forma externa):
-Ícone do Google.
-Ícones do menu e home (via Icons8).
+
+Página de Hamburguer (Milena)
+
+
+
+
+Página de Mousse (Maria)
+
+
+
+
+Página de Panqueca (Duda)

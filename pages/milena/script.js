@@ -57,5 +57,5 @@
       textAlign: 'center';
       };
         
-  });
-  
+  }); 
+     
