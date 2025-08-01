@@ -1,20 +1,28 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Animation for ingredients list
+    const ingredients = document.querySelectorAll('.ingredients li');
     
-    document.getElementById('year').textContent = new Date().getFullYear();
-    
-    
-    const steps = document.querySelectorAll('.preparation-steps li');
-    const primaryColor = getComputedStyle(document.documentElement)
-                        .getPropertyValue('--primary').trim();
-    
-    steps.forEach(step => {
-        step.addEventListener('mouseover', function() {
-            this.style.color = primaryColor;
-            this.style.transition = 'color 0.2s';
-        });
+    ingredients.forEach((item, index) => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateX(-20px)';
+        item.style.transition = `all 0.3s ease ${index * 0.1}s`;
         
-        step.addEventListener('mouseout', function() {
-            this.style.color = '';
+        setTimeout(() => {
+            item.style.opacity = '1';
+            item.style.transform = 'translateX(0)';
+        }, 100);
+    });
+
+    // Add click effect to social icons
+    const socialIcons = document.querySelectorAll('.social-icons a');
+    
+    socialIcons.forEach(icon => {
+        icon.addEventListener('click', function(e) {
+            e.preventDefault();
+            this.style.transform = 'scale(1.2)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+            }, 300);
         });
     });
 });

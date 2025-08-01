@@ -1,130 +1,69 @@
-:root {
-  --primary: #FF5A5F;       /* Coral vibrante */
-  --primary-light: #FFEBEE;
-  --secondary: #484848;     /* Cinza escuro */
-  --accent: #00A699;       /* Verde água */
-  --background: #F7F7F7;
-  --text: #2D2D2D;
-  --text-light: #767676;
-  --white: #FFFFFF;
-  --footer-bg: #2D2D2D;
-  --footer-text: #E8E8E8;
-  --border-radius: 8px;
-  --box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: var(--background);
-  color: var(--text);
-  line-height: 1.6;
+    background-color: #f9f9f9; /* Fundo claro similar ao da imagem */
+    font-family: Arial, sans-serif; /* Fonte simples */
+    color: #333; /* Cor do texto principal */
+    line-height: 1.5;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.container {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 30px;
-  background-color: var(--white);
-  box-shadow: var(--box-shadow);
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--primary);
-  margin-bottom: 20px;
-  text-align: center;
+.recipe {
+    background-color: #fff; /* Fundo branco */
+    padding: 25px;
+    border: 1px solid #e0e0e0; /* Borda sutil como na imagem */
 }
 
 h1 {
-  color: var(--primary);
-  font-size: 28px;
-  text-align: center;
-  margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff994d; /* Preto puro para título */
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 h2 {
-  color: var(--secondary);
-  font-size: 22px;
-  margin: 25px 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000; /* Preto puro para subtítulo */
+    margin-bottom: 15px;
 }
 
-.servings {
-  color: var(--text-light);
-  font-weight: normal;
-  font-size: 0.9em;
+h3 {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff994d; /* Preto puro para "MODO DE PREPARO" */
+    margin-bottom: 15px;
 }
 
-.ingredients {
-  margin-bottom: 20px;
+.ingredients ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
 }
 
-.ingredient {
-  margin-bottom: 8px;
+.ingredients li {
+    margin-bottom: 8px;
 }
 
-hr {
-  border: none;
-  height: 1px;
-  background-color: #ddd;
-  margin: 25px 0;
+.ingredients li.spacer {
+    height: 10px; /* Espaço extra entre ovos e leite */
 }
 
-.preparation-steps {
-  padding-left: 20px;
+.preparation ol {
+    padding-left: 20px;
 }
 
-.preparation-steps li {
-  margin-bottom: 12px;
-  padding-left: 5px;
+.preparation li {
+    margin-bottom: 10px;
 }
 
-.site-footer {
-  background-color: var(--footer-bg);
-  color: var(--footer-text);
-  padding: 20px 0;
-  margin-top: 40px;
-}
-
-.footer-content {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 0 30px;
-}
-
-.footer-links {
-  margin-top: 15px;
-}
-
-.footer-links a {
-  color: var(--footer-text);
-  text-decoration: none;
-  margin: 0 10px;
-  transition: color 0.3s;
-}
-
-.footer-links a:hover {
-  color: var(--primary);
-}
-
-@media (max-width: 600px) {
-  .container {
-    padding: 20px;
-    margin: 15px;
-  }
-  
-  h1 {
-    font-size: 24px;
-  }
-  
-  h2 {
-    font-size: 20px;
-  }
+.divider {
+    height: 1px;
+    background-color: #e0e0e0; /* Linha cinza clara */
+    margin: 20px 0;
+    border: none;
 }
