@@ -11,7 +11,7 @@ Visão Geral:
 Quintal com Tempero é uma aplicação web e mobile que oferece receitas culinárias. Fiz a primeira página permitindo login com Google.
 
 Tecnologias Utilizadas
-HTML5, CSS3
+HTML5, CSS
 React Native
 Autenticação: Google Sign-In API
 Ícones: [Icons8](https://icons8.com)
@@ -22,6 +22,7 @@ Web
 -Login com Google integrado
 -Recuperação de senha pelo Google
 -Layout responsivo para dispositivos diferentes.
+-Ligação entre as páginas
 
 Mobile
 -Autenticação com Google via `@react-native-google-signin/google-signin`
@@ -32,7 +33,7 @@ Quase morri pra tentar colocar uma API. Vi um tutorial no youtube para implement
 Adicionei um evento onclick no botão que redireciona para o URL correto de login do Google
 Usei o endpoint oficial de login do Google (accounts.google.com/v3/signin)
 
-O projeto utiliza a *Google Sign-In API* para autenticação segura:
+O projeto utiliza a *Google Sign-In API* para autenticação segura
 
 ```javascript
 GoogleSignin.configure({
@@ -64,6 +65,8 @@ Componentes:
 ![login com o google pelo celular](./Print%20Login%20com%20o%20Google%20(Celular).png)
 ![página de login pelo computador](./Print%20Página%20de%20Login%20(Computador))
 ![login com o google pelo computador](./Print%20Login%20com%20o%20Google%20(Computador).png)
+
+07/08 - Prof eu fiz alguma cagada e o botão do google parou de funcionar, não vou estar conseguindo arrumar 😛
 
 Página de Menu (Julia)
 
