@@ -61,10 +61,8 @@ Componentes:
 -Inputs: Bordas arredondadas e placeholder branco
 -Footer Fixo: Navegação inferior
 
-![página de login pelo celular](./Print%20Página%20de%20Login%20(Celular).png)
-![login com o google pelo celular](./Print%20Login%20com%20o%20Google%20(Celular).png)
-![página de login pelo computador](./Print%20Página%20de%20Login%20(Computador))
-![login com o google pelo computador](./Print%20Login%20com%20o%20Google%20(Computador).png)
+![página de login pelo computador](./pages/melani/Captura%20de%20tela%202025-08-07%20075148.png)
+![página de login pelo celular](./pages/melani/Captura%20de%20tela%202025-08-07%20075209.png)
 
 07/08 - Prof eu fiz alguma cagada e o botão do google parou de funcionar, não vou estar conseguindo arrumar 😛
 
