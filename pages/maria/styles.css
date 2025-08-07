@@ -99,11 +99,6 @@ h2 {
   padding-top: 110px;
 }
 
-.bottom-bar {
-  background-color: #FF994d;
-  height: 100px;
-  width: 200%;
-}
 .ingredients {
   display: flex;
   flex-direction: column; 
@@ -119,10 +114,4 @@ h2 {
   width: 100px;
   height: auto; 
   margin-right: 15px; 
-}
-/* Barra laranja */
-.footer-bar {
-  background-color: #ff994d; /* Cor de fundo laranja */
-  height: 150px; /* Aumenta a altura da barra */
-  width: 100%; /* Garante que a barra ocupe toda a largura da tela */
 }
