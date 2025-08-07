@@ -9,7 +9,7 @@
   
   <header>
     <div class="logo">
-      <img src="c:\Users\aluno\Pictures\unnamed.png" alt="Logo Suas Receitas">
+      <img src="c:\Users\aluno\Downloads\unnamed.png" alt="Logo Suas Receitas">
     </div>
     <div class="procurar">
       <input type="texto" placeholder="Procure uma receita...">
@@ -18,52 +18,82 @@
     <i class="fas fa-user-circle profile-icon"></i>
   </header>
 
-  <div class="icones-categorias">
-    <i class="fa-solid fa-burger"></i>
-    <i class="fa-solid fa-drumstick-bite"></i>
-    <i class="fa-solid fa-ice-cream"></i>
-    <i class="fa-solid fa-pizza-slice"></i>
+</head>
+<body>
 
-  </div>
+        <nav class="category-filter">
+            <button class="filter-btn" data-category="carnes">Carnes</button>
+            <button class="filter-btn" data-category="sobremesas"> Sobremesas</button>
+            <button class="filter-btn" data-category="massas">
+          Massas</button>
+        </nav>
 
+        <main class="recipes-container">
+            <section class="category" data-category="carnes">
+                <h2 class="category-title">CARNES</h2>
+                <article class="recipe">
+                    <div class="recipe-header">
+                        <h3 class="recipe-title">hambúrguer caseiro</h3>
+                        <button class="favorite-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                    <p class="recipe-description">Confira como fazer hambúrguer caseiro:</p>
+                    <img src="c:\Users\aluno\Downloads\hamburguer-caseiro-artesanal.jpg" alt="hambúrguer">
+                    <div class="meta">
+                        <span class="time"><i class="far fa-clock"></i> 30min</span>
+                        <span class="difficulty"><i class="fas fa-signal"></i> fácil</span>
+                    </div>
+                    <button class="view-recipe-btn">Ver Receita Completa</button>
+                </article>
+            </section>
 
-  <div class="secao">
-    <div class="titulo-secao"><i class="fa-solid fa-burger"></i>CARNES</div>
-    <div class="receita">
-      <img src="c:\Users\aluno\Downloads\HamburguerAlcatraComBacon_1-1920x1274.jpg" alt="Hambúrguer">
-      <div class="conteudo-receita">
-        <div class="titulo-receita">hambúrguer caseiro</div>
-        <div class="info-receita">Confira como fazer hambúrguer caseiro:<br>
-          <i class="fa-regular fa-clock"></i> 30min &nbsp; <i class="fa fa-check"></i> fácil
+            <section class="category" data-category="sobremesas">
+                <h2 class="category-title">SOBREMESAS</h2>
+                <article class="recipe">
+                    <div class="recipe-header">
+                        <h3 class="recipe-title">mousse de maracujá</h3>
+                        <button class="favorite-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                    <p class="recipe-description">Confira como fazer mousse de maracujá:</p>
+                    <img src="c:\Users\aluno\Downloads\R.jfif" alt="sobremesas">
+                    <div class="meta">
+                        <span class="time"><i class="far fa-clock"></i> 5min</span>
+                        <span class="difficulty"><i class="fas fa-signal"></i> muito fácil</span>
+                    </div>
+                    <button class="view-recipe-btn">Ver Receita Completa</button>
+                </article>
+            </section>
+
+            <section class="category" data-category="massas">
+                <h2 class="category-title">MASSAS</h2>
+                <article class="recipe">
+                    <div class="recipe-header">
+                        <h3 class="recipe-title">massa de panqueca</h3>
+                        <button class="favorite-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                    <p class="recipe-description">Confira como fazer massa de panqueca:</p>
+                    <img src="file:///C:/Users/aluno/Downloads/OIP.webp" alt="hambúrguer">
+                    <div class="meta">
+                        <span class="time"><i class="far fa-clock"></i> 30min</span>
+                        <span class="difficulty"><i class="fas fa-signal"></i> fácil</span>
+                    </div>
+                    <button class="view-recipe-btn">Ver Receita Completa</button>
+                </article>
+            </section>
+        </main>
+
+        <div class="modal" id="recipeModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2 id="modalRecipeTitle"></h2>
+                <div class="modal-meta">
+                    <span id="modalTime"></span>
+                    <span id="modalDifficulty"></span>
+                </div>
+                <div class="modal-body" id="modalRecipeContent"></div>
+            </div>
         </div>
-        
-        <div class="titulo-secao"><i class="fa-solid fa-ice-cream"></i>SOBREMESAS</div>
-        <div class="receita">
-      <img src="c:\Users\aluno\Downloads\download.jfif" alt="Mousse de maracujá">
-        <div class="conteudo-receita">
-          <div class="titulo-receita">mousse de maracujá</div>
-          <div class="info-receita">Confira como fazer mousse de maracujá:<br>
-            <i class="fa-regular fa-clock"></i> 5min &nbsp; <i class="fa fa-check"></i> muito fácil
-          </div>
-        </div>
-
-        <div class="titulo-secao"><i class="fa-solid fa-utensils"></i>MASSAS</div>
-        <div class="receita">
-      <img src="file:///C:/Users/aluno/Pictures/Massa-de-panqueca.webp" alt="Massa de panqueca">
-      <div class="descrição">
-        <h3>massa de panqueca</h3>
-        <p>Confira como fazer massa de panqueca:</p>
-        <p class="detalhes"><i class="far fa-clock"></i> 30min &nbsp; <i class="fas fa-star"></i> fácil</p>
-      </div>
     </div>
-  </div>
 
-  <div class="rodape">
-    <div><i class="fa fa-home"></i> Home</div>
-    <div><i class="fa fa-bars"></i> Menu</div>
-    <div><i class="fa fa-ellipsis-h"></i> Outros...</div>
-  </div>
-
-  
+    <script src="script.js"></script>
 </body>
 </html>

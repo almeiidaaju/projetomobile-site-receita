@@ -38,3 +38,6 @@ Logo fictícia (carregada localmente): images.png
 Ícones (carregados de forma externa):
 Ícone do Google.
 Ícones do menu e home (via Icons8).
+c:\Users\aluno\Downloads\HamburguerAlcatraComBacon_1-1920x1274.jpg"
+c:\Users\aluno\Downloads\download.jfif
+file:///C:/Users/aluno/Pictures/Massa-de-panqueca.webp
