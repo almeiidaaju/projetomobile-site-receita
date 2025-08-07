@@ -73,6 +73,66 @@ Página de Menu (Julia)
 Página de Hamburguer (Milena)
 
 
+Projeto: Hambúrguer Caseiro    
+
+Meu projeto é uma página de receita de hamburguer caseiro, onde tem, Ingredientes, Modo de preparo,Imagens,Rodapé e tambem o Menu e o Home. Que quando clicados vão para a pagina de login da mel e a de inicio da julia. A interface é responsiva, utilizando HTML, CSS e JavaScript para renderizar a página dinamicamente. O projeto visa demonstrar o uso de tecnologias web para criar uma página simples, mas funcional e bem estruturada. 
+
+
+
+Tecnologias que usei foram:HTML,
+                           CSS
+                           Javascript
+
+ Descrição do Projeto
+Estrutura de HTML 
+
+1. Cabeçalho (`<header>`)
+Mostra o título do projeto "HAMBURGUER CASEIRO" e a do logo.
+
+2. Ingredientes (`<section class="ingredientes">`)
+A lista de ingredientes que precisam para a receita, junto com imagens para cada ingrediente
+
+3. Modo de Preparo (`<section class="preparo">`)
+Apresenta os passos necessários para preparar o hambúrguer.
+
+4. Rodapé (`<footer>`)
+Tem os links do "Home" e "Menu", com ícones.
+
+CSS:
+O `styles.css` foi utilizado para aplicar as regras de estilo à página, com foco em uma apresentação limpa,agradável e organizada.
+
+1. Design Responsivo
+Uso de grid para exibir os ingredientes de forma organizada e responsiva.
+
+2. Cores e Tipografia:
+O fundo da página é branco, com destaques em laranja.
+Fontes são configuradas para uma estetica mais bonita.
+As principais cores que usamos foi
+ Laranja 1: `#ff944d`
+ Branco: `#ffffff`
+
+3. Rodapé:
+O rodapé é fixado na parte de cima e na de baixo da tela,fazendo com que os links de navegação estejam acessíveis.
+
+4. Imagens dos ingredientes:
+As imagens dos ingredientes tem um tamanho fixo e são colocadas de forma centralizada.
+
+JavaScript:
+
+O  `script.js` é responsável pela parte interativa do app. 
+
+
+
+Como Rodar o Projeto
+Este é um projeto simples, sem necessidade de servidores ou tecnologias complexas,da pra rodar de boa, tanto em celular tanto em computador, adaptado para todos os tipos de aparelhos.   
+
+  Tive muita dificuldade em colocar API, não consegui real, me matei de assistir os videos para aprender e entender, mas nada deu certo nesse projeto. Foi a unica coisa que me deu dor de cabeça, por que o resto levei jeito e fiz muito rapido. Curti muito fazer e estilizar ele.
+
+Conclusão
+Este projeto tem construção de uma página simples utilizando HTML, CSS e JavaScript para criar um conteúdo interativo. A estrutura modular do código permite que cada parte (ingredientes, preparo, e rodapé) seja facilmente usada. A combinação de CSS para estilização e JavaScript para dinamismo faz com que a página seja funcional e de fácil manutenção.
+
+
+
 
 
 Página de Mousse (Maria)

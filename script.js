@@ -50,17 +50,3 @@ const LoginScreen = () => {
   );
 };
 
-
-
-    function navigateTo(page) {
-      if (page === 'home') {
-        // Redireciona para a página Home
-        window.location.href = 'index.html';
-      } else if (page === 'menu') {
-        // Redireciona para a página Menu
-        window.location.href = 'google.com';
-      } else if (page === 'cadastro') {
-        // Redireciona para a página de Cadastro (substitua o caminho conforme necessário)
-        window.location.href = 'file:///C:/Users/aluno/projetomobile-site-receita/pages/cadastro/index.html'; // Caminho fictício
-      }
-    }
