@@ -1,46 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Massa de Panqueca</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="top-bar">
-            <div class="logo">
-                <img src="https://via.placeholder.com/50x50?text=Logo" alt="Logo">
-            </div>
-            <div class="title">Sans Receitas</div>
-            <div class="perfil">👤</div>
-        </div>
-
-        <div class="header">MASSA DE PANQUECA</div>
-
-        <div class="section">
+    <div class="recipe">
+        <h1>MASSA DE PANQUECA</h1>
+        
+        <section class="ingredients">
             <h2>INGREDIENTES (15 PORÇÕES)</h2>
-            <div class="ingredientes">
-                <div class="ingrediente">
-                    <img src="C:\Users\aluno\Downloads\transferir (1).jpg" alt="Farinha">
-                    <p>2 xícaras (chá) de farinha de trigo</p>
-                </div>
-                <div class="ingrediente">
-                    <img src="C:\Users\aluno\Downloads\ovo-1.webp" alt="Ovo">
-                    <p>3 ovos</p>
-                </div>
-                <div class="ingrediente">
-                    <img src="C:\Users\aluno\Downloads\transferir (2).jpg" alt="Leite">
-                    <p>2 xícaras (chá) de leite</p>
-                </div>
-                <div class="ingrediente">
-                    <img src="C:\Users\aluno\Downloads\transferir (3).jpg" alt="Sal">
-                    <p>1 pitada de sal</p>
-                </div>
-            </div>
-        </div>
+            <ul>
+                <li>2 xícaras (chá) de farinha de trigo</li>
+                <li>3 ovos</li>
+                <li class="spacer"></li> <!-- Espaço extra -->
+                <li>2 xícaras (chá) de leite</li>
+                <li>1 pitada de sal</li>
+            </ul>
+        </section>
 
-        <div class="section preparo">
-            <h2>MODO DE PREPARO:</h2>
+        <div class="divider"></div> <!-- Linha divisória -->
+
+        <section class="preparation">
+            <h3>MODO DE PREPARO:</h3>
             <ol>
                 <li>Bata todos os ingredientes no liquidificador por 2 minutos.</li>
                 <li>Após, desligue e com uma colher misture a farinha que grudou ao redor do copo.</li>
@@ -49,15 +33,7 @@
                 <li>Pegue uma porção de massa e coloque na frigideira, gire a frigideira para espalhar bem a massa.</li>
                 <li>Abaixe o fogo e deixe dourar por baixo, vire do outro lado e deixe dourar, repita o processo com toda a massa.</li>
             </ol>
-        </div>
-
-        <div class="footer">
-            <button onclick="voltarHome()">🏠 Home</button>
-            <button onclick="abrirMenu()">📋 Menu</button>
-        </div>
+        </section>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
-

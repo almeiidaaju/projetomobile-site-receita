@@ -1,108 +1,69 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1c1c1c;
-    margin: 0;
-    padding: 0;
+    background-color: #f9f9f9; /* Fundo claro similar ao da imagem */
+    font-family: Arial, sans-serif; /* Fonte simples */
+    color: #333; /* Cor do texto principal */
+    line-height: 1.5;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.container {
-    max-width: 400px;
-    background: #fff;
-    margin: 20px auto;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+.recipe {
+    background-color: #fff; /* Fundo branco */
+    padding: 25px;
+    border: 1px solid #e0e0e0; /* Borda sutil como na imagem */
 }
 
-.top-bar {
-    background: #FF914D;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    color: white;
-}
-
-.top-bar img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-.top-bar .title {
+h1 {
+    font-size: 22px;
     font-weight: bold;
+    text-transform: uppercase;
+    color: #ff994d; /* Preto puro para título */
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+h2 {
     font-size: 16px;
-}
-
-.header {
-    background: #FF914D;
-    color: white;
-    text-align: center;
-    padding: 10px;
     font-weight: bold;
-    font-size: 18px;
+    text-transform: uppercase;
+    color: #000; /* Preto puro para subtítulo */
+    margin-bottom: 15px;
 }
 
-.section {
-    padding: 15px;
-}
-
-.section h2 {
-    color: #FF7B00;
+h3 {
+    font-size: 15px;
     font-weight: bold;
-    font-size: 16px;
+    text-transform: uppercase;
+    color: #ff994d; /* Preto puro para "MODO DE PREPARO" */
+    margin-bottom: 15px;
 }
 
-.ingredientes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 10px;
+.ingredients ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
 }
 
-.ingrediente {
-    text-align: center;
-    margin: 10px;
+.ingredients li {
+    margin-bottom: 8px;
 }
 
-.ingrediente img {
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: 0 auto 5px;
+.ingredients li.spacer {
+    height: 10px; /* Espaço extra entre ovos e leite */
 }
 
-.preparo h2::after {
-    content: " ⏰";
-}
-
-.preparo ol {
+.preparation ol {
     padding-left: 20px;
 }
 
-.preparo ol li {
+.preparation li {
     margin-bottom: 10px;
-    font-size: 14px;
 }
 
-.footer {
-    background: #FF914D;
-    text-align: center;
-    padding: 10px;
-    color: white;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer button {
-    background: none;
+.divider {
+    height: 1px;
+    background-color: #e0e0e0; /* Linha cinza clara */
+    margin: 20px 0;
     border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.footer button:hover {
-    text-decoration: underline;
 }
