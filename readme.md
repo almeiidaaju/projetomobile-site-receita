@@ -238,7 +238,10 @@ O CSS foi utilizado para dar estilo ao layout, com cores que destacam as seçõe
 
 Conclusão: Foi muito dificil fazer esse design responsivo, principalmente porque eu tava tendo dificuldades para ajustar tudo direitinho nas telas menores, como em celulares. Depois de várias tentativas e horasss tentando, finalmente consegui acertar o layout para se adaptar bem a diferentes dispositivos.
 
-Mesmo depois de muito trabalho, consegui criar uma página funcional e legal de visualizar. O uso de media queries e flexbox foi fundamental para deixar o site bem responsivo e agradável. No fim, mesmo com o rodapé ainda fora do lugar, o resultado final ficou como eu esperei que ficasse mesmo, e eu aprendi muito no processo!
+Mesmo depois de muito trabalho, consegui criar uma página funcional e legal de visualizar. O uso de media queries e flexbox foi fundamental para deixar o site bem responsivo e agradável. No fim, mesmo com o rodapé ainda fora do lugar, o resultado final ficou como eu esperei que ficasse mesmo, e eu aprendi muito no processo!😁
+
+![página de login pelo computador]("C:\Users\aluno\Pictures\Screenshots\Captura de tela 2025-08-08 110739.png")
+![página de login pelo celular]("C:\Users\aluno\Pictures\Screenshots\Captura de tela 2025-08-08 113009.png")
 
 
 
