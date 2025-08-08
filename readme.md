@@ -240,8 +240,7 @@ Conclusão: Foi muito dificil fazer esse design responsivo, principalmente porqu
 
 Mesmo depois de muito trabalho, consegui criar uma página funcional e legal de visualizar. O uso de media queries e flexbox foi fundamental para deixar o site bem responsivo e agradável. No fim, mesmo com o rodapé ainda fora do lugar, o resultado final ficou como eu esperei que ficasse mesmo, e eu aprendi muito no processo!😁
 
-![página de login pelo computador]("C:\Users\aluno\Pictures\Screenshots\Captura de tela 2025-08-08 110739.png")
-![página de login pelo celular]("C:\Users\aluno\Pictures\Screenshots\Captura de tela 2025-08-08 113009.png")
+
 
 
 
