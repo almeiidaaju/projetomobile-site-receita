@@ -95,7 +95,6 @@ Design Mobile First
 
 a duda nao fez nada, tentamos ajudar mas ela nao quis, e ela tentou mas nao fez por preguiça
 
-nao consegui de jeito nenhum colocar botão pra funcionar :(
 
 
 <<<<<<< HEAD
