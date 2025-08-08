@@ -68,6 +68,34 @@ Componentes:
 
 Página de Menu (Julia)
 
+Este projeto apresenta um livro de receitas digital que se adapta perfeitamente tanto em telas de celular quanto de computador, com destaque para a seção de carnes, massas e sobremesas.
+
+FUNCIONALIDADES
+
+Design Responsivo que se adapta a qualquer tamanho de tela
+
+Layout Atraente para a seção de carnes com imagem integrada
+
+Media Queries para otimização em diferentes dispositivos
+
+Efeitos Visuais suaves para melhor experiência do usuário
+
+Organização Semântica do código HTML e CSS
+
+TECNOLOGIAS UTILIZADAS
+HTML5 semântico
+
+CSS3 com Flexbox e Grid Layout
+
+Media Queries para responsividade
+
+Design Mobile First
+
+Ícones do Font Awesome
+
+a duda nao fez nada, tentamos ajudar mas ela nao quis, e ela tentou mas nao fez por preguiça
+
+nao consegui de jeito nenhum colocar botão pra funcionar :(
 
 
 <<<<<<< HEAD
