@@ -95,7 +95,6 @@ Design Mobile First
 
 a duda nao fez nada, tentamos ajudar mas ela nao quis, e ela tentou mas nao fez por preguiça
 
-nao consegui de jeito nenhum colocar botão pra funcionar :(
 
 
 <<<<<<< HEAD
@@ -238,7 +237,9 @@ O CSS foi utilizado para dar estilo ao layout, com cores que destacam as seçõe
 
 Conclusão: Foi muito dificil fazer esse design responsivo, principalmente porque eu tava tendo dificuldades para ajustar tudo direitinho nas telas menores, como em celulares. Depois de várias tentativas e horasss tentando, finalmente consegui acertar o layout para se adaptar bem a diferentes dispositivos.
 
-Mesmo depois de muito trabalho, consegui criar uma página funcional e legal de visualizar. O uso de media queries e flexbox foi fundamental para deixar o site bem responsivo e agradável. No fim, mesmo com o rodapé ainda fora do lugar, o resultado final ficou como eu esperei que ficasse mesmo, e eu aprendi muito no processo!
+Mesmo depois de muito trabalho, consegui criar uma página funcional e legal de visualizar. O uso de media queries e flexbox foi fundamental para deixar o site bem responsivo e agradável. No fim, mesmo com o rodapé ainda fora do lugar, o resultado final ficou como eu esperei que ficasse mesmo, e eu aprendi muito no processo!😁
+
+
 
 ![página de login pelo celular](./pages/maria/Captura%20de%20tela%202025-08-08%20113009.png)
 ![página de login pelo computador](./pages/maria/Captura%20de%20tela%202025-08-08%20110739.png)
