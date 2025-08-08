@@ -207,7 +207,38 @@ Este projeto tem construção de uma página simples utilizando HTML, CSS e Java
 
 
 
-Página de Mousse (Maria)
+Página de Mousse (Maria) 
+
+Projeto: Mousse de Maracujá 
+
+Este projeto é um site de receita para a sobremesa "Mousse de Maracujá". Ele apresenta um layout simples com um cabeçalho, lista de ingredientes e instruções de preparo. A página é responsiva, se ajustando corretamente tanto em celulares quanto em computadores.
+
+O site foi desenvolvido utilizando HTML e CSS, com foco em clareza e usabilidade. O design responsivo foi onde eu mais tive dificuldades em conseguir arrumar, mas depois de horasssss de tentativas, consegui corrigir os erros do código e transformá-lo em um design responsivo.
+
+Tecnologias Utilizadas
+HTML: Para a estrutura da página (cabeçalhos, parágrafos, imagens, etc.).
+
+CSS: Para estilizar o layout, fontes, cores e adicionar as media queries para garantir a responsividade.
+
+Funcionalidades
+Cabeçalho: Contém uma logo e o nome da sobremesa na barra superior.
+
+Lista de Ingredientes: Exibe os ingredientes com as imagens deles.
+
+Modo de Preparo: Fornece o passo a passo para fazer a mousse.
+
+Design Responsivo: Ajusta o layout para diferentes tamanhos de tela (móvel, tablet, desktop).
+
+Infelizmente, eu não consegui implementar um rodapé funcional. Fiquei com bastante dificuldade e acabei deixando ele de lado.
+
+Explicação do Código
+A estrutura do HTML é bem simples e direta, com seções para o cabeçalho, lista de ingredientes, modo de preparo e rodapé. A barra superior (top-bar) contém o logo e o nome da sobremesa, enquanto a lista de ingredientes exibe as imagens dos itens e seus respectivos nomes. O modo de preparo é descrito em texto logo abaixo.
+
+O CSS foi utilizado para dar estilo ao layout, com cores que destacam as seções e fontes legíveis. O layout foi feito com base em flexbox, o que garante que os elementos se alinhem corretamente na tela. As media queries foram usadas para garantir que o site seja responsivo, ajustando a visualização para diferentes larguras de tela, desde desktops até dispositivos móveis.
+
+Conclusão: Foi muito dificil fazer esse design responsivo, principalmente porque eu tava tendo dificuldades para ajustar tudo direitinho nas telas menores, como em celulares. Depois de várias tentativas e horasss tentando, finalmente consegui acertar o layout para se adaptar bem a diferentes dispositivos.
+
+Mesmo depois de muito trabalho, consegui criar uma página funcional e legal de visualizar. O uso de media queries e flexbox foi fundamental para deixar o site bem responsivo e agradável. No fim, mesmo com o rodapé ainda fora do lugar, o resultado final ficou como eu esperei que ficasse mesmo, e eu aprendi muito no processo!
 
 
 
