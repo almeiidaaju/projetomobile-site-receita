@@ -1,69 +1,95 @@
-body {
-    background-color: #f9f9f9; /* Fundo claro similar ao da imagem */
-    font-family: Arial, sans-serif; /* Fonte simples */
-    color: #333; /* Cor do texto principal */
-    line-height: 1.5;
-    padding: 20px;
-    max-width: 600px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 900px;
     margin: 0 auto;
-}
-
-.recipe {
-    background-color: #fff; /* Fundo branco */
-    padding: 25px;
-    border: 1px solid #e0e0e0; /* Borda sutil como na imagem */
-}
-
-h1 {
-    font-size: 22px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #ff994d; /* Preto puro para título */
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-h2 {
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #000; /* Preto puro para subtítulo */
-    margin-bottom: 15px;
-}
-
-h3 {
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #ff994d; /* Preto puro para "MODO DE PREPARO" */
-    margin-bottom: 15px;
-}
-
-.ingredients ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 20px;
-}
-
-.ingredients li {
-    margin-bottom: 8px;
-}
-
-.ingredients li.spacer {
-    height: 10px; /* Espaço extra entre ovos e leite */
-}
-
-.preparation ol {
-    padding-left: 20px;
-}
-
-.preparation li {
+    padding-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-bottom: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #FF6F00;
     margin-bottom: 10px;
-}
-
-.divider {
-    height: 1px;
-    background-color: #e0e0e0; /* Linha cinza clara */
-    margin: 20px 0;
+  }
+  
+  .subtitulo {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  section {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #FF6F00;
+    margin-bottom: 15px;
+  }
+  
+  ul, ol {
+    margin-left: 20px;
+  }
+  
+  ul li, ol li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background-color: #FF6F00;
+    color: white;
     border: none;
-}
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn:hover {
+    background-color: #e65c00;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .btn {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  

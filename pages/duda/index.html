@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Massa de Panqueca</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Massa de Panqueca - Receita</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="recipe">
-        <h1>MASSA DE PANQUECA</h1>
-        
-        <section class="ingredients">
-            <h2>INGREDIENTES (15 PORÇÕES)</h2>
-            <ul>
-                <li>2 xícaras (chá) de farinha de trigo</li>
-                <li>3 ovos</li>
-                <li class="spacer"></li> <!-- Espaço extra -->
-                <li>2 xícaras (chá) de leite</li>
-                <li>1 pitada de sal</li>
-            </ul>
-        </section>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>Massa de Panqueca</h1>
+      <p class="subtitulo">Receita simples e deliciosa para 15 porções</p>
+    </header>
 
-        <div class="divider"></div> <!-- Linha divisória -->
+    <!-- Ingredientes -->
+    <section class="ingredientes">
+      <h2>Ingredientes (15 porções)</h2>
+      <ul>
+        <li><strong>2 xícaras (chá)</strong> de farinha de trigo</li>
+        <li><strong>3 ovos</strong></li>
+        <li><strong>2 xícaras (chá)</strong> de leite</li>
+        <li><strong>1 pitada</strong> de sal</li>
+      </ul>
+    </section>
 
-        <section class="preparation">
-            <h3>MODO DE PREPARO:</h3>
-            <ol>
-                <li>Bata todos os ingredientes no liquidificador por 2 minutos.</li>
-                <li>Após, desligue e com uma colher misture a farinha que grudou ao redor do copo.</li>
-                <li>Bata novamente só para misturar e reserve.</li>
-                <li>Unte a frigideira com um fio de óleo e leve ao fogo até aquecer.</li>
-                <li>Pegue uma porção de massa e coloque na frigideira, gire a frigideira para espalhar bem a massa.</li>
-                <li>Abaixe o fogo e deixe dourar por baixo, vire do outro lado e deixe dourar, repita o processo com toda a massa.</li>
-            </ol>
-        </section>
-    </div>
+    <!-- Modo de Preparo -->
+    <section class="modo-preparo">
+      <h2>Modo de Preparo:</h2>
+      <ol>
+        <li>Bata todos os ingredientes no liquidificador por 2 minutos.</li>
+        <li>Após, desligue e com uma colher misture a farinha que grudou ao redor do copo.</li>
+        <li>Bata novamente só para misturar e reserve.</li>
+        <li>Unte a frigideira com um fio de óleo e leve ao fogo até aquecer.</li>
+        <li>Pegue uma porção de massa e coloque na frigideira, gira a frigideira para espalhar bem a massa.</li>
+        <li>Abaixe o fogo e deixe dourar por baixo, vire do outro lado e deixe dourar, repita o processo com toda a massa.</li>
+      </ol>
+    </section>
+
+    <!-- Footer com Botões -->
+    <footer>
+      <button class="btn" onclick="goHome()">Home</button>
+      <button class="btn" onclick="goMenu()">Menu</button>
+    </footer>
+  </div>
+
+  
 </body>
 </html>
