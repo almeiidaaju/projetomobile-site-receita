@@ -97,50 +97,6 @@ a duda nao fez nada, tentamos ajudar mas ela nao quis, e ela tentou mas nao fez 
 
 
 
-<<<<<<< HEAD
-Logo fictícia (carregada localmente): images.png
-Ícones (carregados de forma externa):
-Ícone do Google.
-Ícones do menu e home (via Icons8).
-c:\Users\aluno\Downloads\HamburguerAlcatraComBacon_1-1920x1274.jpg"
-c:\Users\aluno\Downloads\download.jfif
-file:///C:/Users/aluno/Pictures/Massa-de-panqueca.webp
-
-QUINTAL COM TEMPERO (MENU PRINCIPAL)
-
-Este projeto apresenta um livro de receitas digital que se adapta perfeitamente tanto em telas de celular quanto de computador, com destaque para a seção de carnes, massas e sobremesas.
-
-Tecnologias Utilizadas
-
-HTML5: Estruturação da página web.
-CSS3: Estilização dos elementos com foco em design limpo e moderno.
-JavaScript (React Native): Organização de estilos simulando estrutura mobile com comparação de design responsivo.
-Imagens de ícones: Usadas via URLs externas e arquivos locais.
-
-FUNCIONALIDADES
-Design Responsivo que se adapta a qualquer tamanho de tela
-
-Layout Atraente para a seção de carnes com imagem integrada
-
-Media Queries para otimização em diferentes dispositivos
-
-Efeitos Visuais suaves para melhor experiência do usuário
-
-Organização Semântica do código HTML e CSS
-
-TECNOLOGIAS
-
-HTML5 semântico
-
-CSS3 com Flexbox e Grid Layout
-
-Media Queries para responsividade
-
-Design Mobile First
-
-Ícones do Font Awesome
-=======
-
 Página de Hamburguer (Milena)
 
 
@@ -246,5 +202,18 @@ Mesmo depois de muito trabalho, consegui criar uma página funcional e legal de 
 
 
 
-Página de Panqueca (Duda)
->>>>>>> ce34269b9ead0aefd7e8b7926b7fb639e60df1cf
+#pag duda
+
+
+
+![massa de panqueca](./pages/duda/assets/projetomobile-site-receita/duda22.png)
+
+A primeira imagem mostra o cabeçalho com o titulo da receita.
+
+![ingredientes](./pages/duda/assets/projetomobile-site-receita/duda2020.png)
+
+A segunda imagem mostra os ingredientes e a medida de cada um.
+
+![modo de preparo](./pages/duda/assets/projetomobile-site-receita/coxadoido.png)
+
+A tereceira e ultima imagem mostra o passo a passo para realizar a receita e embaixo o rodape para mudar de tela.
